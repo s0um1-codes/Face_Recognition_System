@@ -31,7 +31,7 @@ window.grid_columnconfigure(0, weight = 1)
 my_canvas = Canvas(window,width=800,height=600)
 my_canvas.pack(fill="both", expand=True)
 
-img= Image.open(r"D:\ximpro\FaceRecognitionProject\fc.jpg")
+img= Image.open(r"D:\FaceRecognitionProject\fc.jpg")
 img = img.resize((800, 600), Image.ANTIALIAS)
 bg = ImageTk.PhotoImage(img)
 
